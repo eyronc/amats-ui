@@ -1,2 +1,3 @@
-# amats-ui
-static project (more frontend, less backend)
+# AMATS UI
+
+Frontend UI for the AMATS Driver Drowsiness Detection System.

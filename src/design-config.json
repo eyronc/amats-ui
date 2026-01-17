@@ -1,0 +1,244 @@
+{
+  "branding": {
+    "systemName": "A.M.A.T.S.",
+    "fullName": "A.I. Monitoring for Alertness, Tiredness and Safety",
+    "tagline": "Advanced AI-powered driver monitoring system",
+    "copyright": "© 2024 A.M.A.T.S.",
+    "footerMessage": "Always drive responsibly"
+  },
+  
+  "colors": {
+    "primary": "#030213",
+    "primaryLight": "#1a1a2e",
+    "secondary": "#f1f2f6",
+    "accent": "#e9ebef",
+    "success": "#22c55e",
+    "warning": "#f59e0b",
+    "danger": "#d4183d",
+    "info": "#3b82f6",
+    "background": "#ffffff",
+    "cardBackground": "#ffffff",
+    "textPrimary": "#030213",
+    "textSecondary": "#717182",
+    "textMuted": "#9ca3af",
+    "border": "rgba(0, 0, 0, 0.1)"
+  },
+  
+  "darkMode": {
+    "enabled": true,
+    "colors": {
+      "primary": "#ffffff",
+      "background": "#0a0a0f",
+      "cardBackground": "#0a0a0f",
+      "textPrimary": "#ffffff",
+      "textSecondary": "#9ca3af",
+      "border": "#1a1a1f"
+    }
+  },
+  
+  "typography": {
+    "baseFontSize": "16px",
+    "fontFamily": "Inter, system-ui, sans-serif",
+    "headingSizes": {
+      "h1": "2xl",
+      "h2": "xl", 
+      "h3": "lg",
+      "h4": "base"
+    },
+    "fontWeights": {
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  
+  "spacing": {
+    "containerPadding": "1rem",
+    "sectionSpacing": "1.5rem",
+    "cardPadding": "1.5rem",
+    "buttonPadding": "0.5rem 1rem",
+    "borderRadius": "0.625rem"
+  },
+  
+  "layout": {
+    "headerHeight": "auto",
+    "maxContainerWidth": "1200px",
+    "navigationTabs": 4,
+    "gridColumns": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 4
+    }
+  },
+  
+  "components": {
+    "header": {
+      "showLogo": true,
+      "showSystemStatus": true,
+      "showSecurityBadge": true,
+      "logoIcon": "Eye",
+      "statusIndicator": "pulse"
+    },
+    
+    "navigation": {
+      "position": "top",
+      "style": "tabs",
+      "showIcons": true,
+      "compactOnMobile": true,
+      "tabs": [
+        {
+          "id": "dashboard",
+          "label": "Live Monitor",
+          "shortLabel": "Monitor",
+          "icon": "Monitor",
+          "enabled": true
+        },
+        {
+          "id": "statistics", 
+          "label": "Statistics",
+          "shortLabel": "Stats",
+          "icon": "BarChart3",
+          "enabled": true
+        },
+        {
+          "id": "shop",
+          "label": "Shop", 
+          "shortLabel": "Shop",
+          "icon": "ShoppingBag",
+          "enabled": true
+        },
+        {
+          "id": "settings",
+          "label": "Settings",
+          "shortLabel": "Settings", 
+          "icon": "Settings",
+          "enabled": true
+        }
+      ]
+    },
+    
+    "dashboard": {
+      "layout": "grid",
+      "cards": [
+        {
+          "id": "cameraFeed",
+          "title": "Live Camera Feed",
+          "position": "top-left",
+          "size": "large",
+          "enabled": true
+        },
+        {
+          "id": "drowsinessMonitor",
+          "title": "Drowsiness Monitor", 
+          "position": "top-right",
+          "size": "medium",
+          "enabled": true
+        },
+        {
+          "id": "quickStats",
+          "title": "Quick Statistics",
+          "position": "bottom-left", 
+          "size": "medium",
+          "enabled": true
+        },
+        {
+          "id": "recentAlerts",
+          "title": "Recent Alerts",
+          "position": "bottom-right",
+          "size": "medium", 
+          "enabled": true
+        }
+      ]
+    },
+    
+    "shop": {
+      "storeName": "A.M.A.T.S. Equipment Store",
+      "storeTagline": "Professional A.I. monitoring equipment for alertness, tiredness and safety",
+      "featuredProductsCount": 3,
+      "productsPerRow": {
+        "mobile": 1,
+        "tablet": 2, 
+        "desktop": 3
+      },
+      "showFilters": true,
+      "showSearch": true,
+      "enableCart": true
+    },
+    
+    "cards": {
+      "showShadow": true,
+      "borderWidth": "1px",
+      "headerDivider": true,
+      "padding": "1.5rem",
+      "borderRadius": "0.625rem"
+    },
+    
+    "buttons": {
+      "borderRadius": "0.625rem",
+      "variants": {
+        "primary": {
+          "background": "primary",
+          "text": "white",
+          "hover": "primaryLight"
+        },
+        "secondary": {
+          "background": "transparent", 
+          "text": "primary",
+          "border": "primary",
+          "hover": "accent"
+        }
+      }
+    }
+  },
+  
+  "features": {
+    "realTimeUpdates": true,
+    "darkModeToggle": true,
+    "responsiveDesign": true,
+    "animations": {
+      "enabled": true,
+      "duration": "300ms",
+      "easing": "ease-in-out"
+    },
+    "notifications": {
+      "enabled": true,
+      "position": "bottom-right",
+      "duration": 5000
+    }
+  },
+  
+  "ecommerce": {
+    "currency": "PHP",
+    "currencySymbol": "₱",
+    "showOriginalPrice": true,
+    "showRatings": true,
+    "showReviews": true,
+    "enableWishlist": false,
+    "shippingThreshold": 100,
+    "taxRate": 0.08
+  },
+  
+  "monitoring": {
+    "alertLevels": {
+      "low": {
+        "color": "#22c55e",
+        "label": "Normal",
+        "threshold": 30
+      },
+      "medium": {
+        "color": "#f59e0b", 
+        "label": "Caution",
+        "threshold": 60
+      },
+      "high": {
+        "color": "#d4183d",
+        "label": "Critical", 
+        "threshold": 90
+      }
+    },
+    "refreshInterval": 1000,
+    "recordingIndicator": true,
+    "soundAlerts": true
+  }
+}
